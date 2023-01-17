@@ -1,0 +1,38 @@
+#container-card{
+    display: flex;
+}
+.card p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card h4{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.card {
+    width: 33%;
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .card-escuro{
+    background-color: #393838;
+  }
+  .card-escuro p{
+    color: #9f9f9f;
+  }
+  .card-escuro h4{
+    color: white;
+  }
+  .card-claro{
+    background-color: #f6f8fc;
+  }
+  .card-claro p{
+    color: #8a8fa3;
+  }
+  .card-claro h4{
+    color: #32333c;
+  }
